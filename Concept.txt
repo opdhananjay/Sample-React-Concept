@@ -1,0 +1,51 @@
+class is blueprint and object is instance of a class 
+encapsulation = encapsulation means hidding data and controlling access of it 
+inheritance = inheritance allows one class to reuse property/method of another class
+polymorphism = polymorphism means method/interface have same but different behavious
+abstraction = abstraction means showing only neccessary details and hiding implementation details 
+
+
+
+1. Class and Object
+A class is a blueprint, while an object is an instance of that class.
+
+2. Encapsulation
+Encapsulation means hiding internal data and controlling access to it.
+
+3. Inheritance
+Inheritance allows one class to reuse properties and methods of another class.
+
+4. Polymorphism
+Polymorphism means one interface/name can have different behaviors.
+
+Concept	Meaning
+Encapsulation	Hide/protect data
+Inheritance	Reuse code from another class
+Polymorphism	Same method/interface, different behavior
+Abstraction	Hide implementation details
+
+- 
+
+constructor - 
+
+constructor is special method that will execute automatically when we create object of a class 
+
+usaally construcotr are used to initialize object data 
+
+Abstract class - 
+
+parent provide a common structure , but may leave some behaviour for a child to 
+implement
+
+DI - it is design pattern where a class receive a object it depend on from outside ,
+	 instead of creating those object itself 
+	 
+	DI is about controlling dependecies from outside 
+	
+	the object still gets created the difference is who controls the creation and 
+	which implementation gets supplied 
+	
+	- DI doesn't magically make object creation better its main value it managing depedecencies and reducing copouling especially application grows 
+	
+	- 
+	
