@@ -1,0 +1,184 @@
+🟢 1. C# Fundamentals - 
+
+1. Variables - Variable is Container that store Value 
+
+2. Data Type - int - whole number 
+               long - Large whole numbers, 
+               float - decimal numbers,
+               double - decimal numbers,
+               decimal - High-precision decimal, 
+               char - single character,
+               string - Text,
+               bool - true/false ,
+               byte - 0–255 integer 
+
+3. Value Type vs Reference Type - 
+
+Value Type - Value Type Store the Actual Value 
+
+Common Value Type - 
+
+int
+double
+float
+decimal
+bool
+char
+struct
+enum 
+
+Reference Type - Reference Type stores a reference to an object instead of directly storing the object value
+
+Commong Value Type - 
+
+Class
+object
+string 
+array
+interface 
+delegate 
+
+Interview definition
+- value type stores the actual value , while referece type stores a reference to an object
+
+
+4. var vs dynamic vs object 
+
+var  - var allows the compiler to automatically determine the data type at complile time 
+    - compile time type checking
+
+    var age = 24 
+    var name = 'dhananjay'
+
+dynamic - dynamic allow the type to determine at runtime 
+        - 
+    dynamic value = 10;
+    Console.WriteLine(value.Length);
+
+object - object is base type of all c# types and can store any type of value
+
+
+5. Nullable Types
+ 
+- Nullable Type allows value type to also store null 
+int? age = null;
+
+- Nullable reference Type 
+string? name = null 
+
+? - tells compiler this string allowed to null 
+
+- ?? - Null-Coalescing Operator 
+
+string? name = null 
+string result = name ?? "Unknows"
+
+if left side is null then use right side 
+
+?. - null-conditional operator
+
+
+5️⃣ Type Casting - 
+ - Type Casting Means Converting value from one data type to another data type 
+ - There are mainly two things you should understand:
+    - Implicit casting
+    - Explicit casting
+
+    - Implicit - Implicit casting happen automatically when converting a smaller compatibale type to larger type 
+    - int -> double 
+
+    - Explicit - Explicit Casting means manually converting one type to another type into  
+    -  int number = (int)value 
+
+    way of conversion => 
+    Parse - convert a string to specific type , but throw exception if converiosn fails
+    TryParse - Attempt Conversion and return true or false  instead of throwing 
+    an expection invalid input 
+    Convert - Provide methods to convert value between differet type and handle some null cases differently from parse 
+
+    casting -  
+    decimal d = 10.5;
+    int e = (int)d;
+
+    converions -  
+    string a = "100";
+    int c = int.parse(a);
+
+
+6. Boxing & Unboxing 
+- boxing means converting value type to object/referece type  
+- Unboxing means converting boxed object back into value type 
+
+
+7. const and readonly - 
+
+- const constant value is used for values that are fixed at compile time 
+
+- readonly is used when a value should not change after it has been initialize. it can be initialize at declaration or inside constructor 
+
+
+8. ref, out, and in Parameters - 
+
+ref - i want method to modify my original variable 
+
+out - method, you give me value through this variable 
+
+in - method , you can read my original variable , but dont modify it
+
+Think about it like this - Imagine you're giving your employee access to a document.
+
+Normal parameter- Here's a copy of my document.
+ref - Here's my actual document. You can modify it
+out - "I don't have this document yet. You create/fill it and give it back to me.
+
+in - Here's my actual document. You can read it, but don't modify it
+
+
+- brief - 
+
+ref → method can modify the original variable
+
+out → method provides a value through the variable
+
+in → method can read the original variable but cannot modify it
+
+9. string vs stringbuilder - 
+
+string  - string is sequence of character that used to store text 
+    - string is immutable 
+    - once string object is created it is value cannot be change 
+    - string name = "Dhananjay";
+    - name = "Rahul";
+    - it look like we changed string but internally 
+    C# create new string object
+
+
+    - Immutable 
+    - Good for normal text 
+    - Simple to use 
+    - create new string when modified
+    - good for small/simple operation  
+    
+stringbuilder - stringbuilder is used to create and modify string efficiently , especially when we need many changes 
+    - Mutable 
+    - Good for repeted modifcaiton 
+    - slighly more complex 
+    - modifies it is internal buffer 
+    - good for many string operations
+
+Why is StringBuilder faster than string when performing many modifications?
+
+Because StringBuilder modifies its internal buffer instead of creating a new string object for every modification.
+
+Use StringBuilder when you're doing many repeated modifications, such as building a large string inside a loop.
+
+string
+→ Immutable
+→ Normal text
+
+StringBuilder
+→ Mutable
+→ Many modifications
+
+
+

@@ -1,0 +1,341 @@
+🟢 1. C# Fundamentals
+- [ ] Variables & Data Types
+- [ ] Value Types vs Reference Types
+- [ ] var, dynamic, object
+- [ ] Nullable Types
+- [ ] Type Casting
+- [ ] Boxing & Unboxing
+- [ ] Constants & Readonly
+- [ ] const vs readonly
+- [ ] ref, out, in
+- [ ] string vs StringBuilder
+- [ ] String interpolation
+- [ ] Operators
+- [ ] Conditional statements
+- [ ] Loops
+- [ ] Arrays
+
+🟢 2. OOP — VERY IMPORTANT
+You're currently here.
+- [ ] Class
+- [ ] Object
+- [ ] Encapsulation
+- [ ] Inheritance
+- [ ] Polymorphism
+- [ ] Abstraction
+- [ ] Constructor
+- [ ] Constructor types
+- [ ] this
+- [ ] Access Modifiers
+- [ ] Properties
+- [ ] Fields
+- [ ] Static members
+- [ ] Method Overloading
+- [ ] Method Overriding
+- [ ] virtual
+- [ ] override
+- [ ] new keyword
+- [ ] Abstract Class
+- [ ] Interface
+- [ ] Abstract Class vs Interface
+- [ ] Composition vs Inheritance
+
+
+🟢 3. C# Intermediate / Advanced
+- [ ] Collections
+- [ ] ArrayList vs List
+- [ ] List
+- [ ] Dictionary
+- [ ] HashSet
+- [ ] Queue
+- [ ] Stack
+- [ ] IEnumerable
+- [ ] ICollection
+- [ ] IList
+- [ ] IQueryable
+- [ ] IEnumerable vs IQueryable
+- [ ] Generics
+- [ ] Generic Classes
+- [ ] Generic Methods
+- [ ] Constraints
+- [ ] Delegates
+- [ ] Action
+- [ ] Func
+- [ ] Predicate
+- [ ] Events
+- [ ] Lambda Expressions
+- [ ] Anonymous Methods
+- [ ] Extension Methods
+
+🟢 4. Exception Handling
+- [ ] try / catch / finally
+- [ ] Multiple catch blocks
+- [ ] throw
+- [ ] throw ex vs throw
+- [ ] Custom Exceptions
+- [ ] Exception hierarchy
+- [ ] Global exception handling
+
+
+🟢 6. Async Programming — VERY IMPORTANT
+- [ ] Synchronous vs Asynchronous
+- [ ] async
+- [ ] await
+- [ ] Task
+- [ ] Task<T>
+- [ ] Task.WhenAll
+- [ ] Task.WhenAny
+- [ ] Task.Run
+- [ ] Async API calls
+- [ ] Async database calls
+- [ ] Common async mistakes
+- [ ] Deadlocks basics
+- [ ] Parallel programming basics
+
+🟢 7. Memory / Runtime Basics
+- [ ] Stack vs Heap
+- [ ] Garbage Collection
+- [ ] Managed vs Unmanaged Code
+- [ ] IDisposable
+- [ ] using
+- [ ] using statement
+- [ ] Finalizer
+- [ ] Garbage Collector generations
+- [ ] Memory leaks basics
+
+🔵 8. .NET Fundamentals
+- [ ] What is .NET?
+- [ ] .NET Framework vs .NET Core vs modern .NET
+- [ ] .NET SDK
+- [ ] Runtime
+- [ ] CLR
+- [ ] CTS
+- [ ] CLS
+- [ ] Assemblies
+- [ ] NuGet
+- [ ] Project structure
+- [ ] .csproj
+- [ ] Dependency management
+- [ ] Configuration
+- [ ] Environment-specific configuration
+
+
+🔵 9. ASP.NET Core
+Very important for your interviews.
+- [ ] What is ASP.NET Core?
+- [ ] Request pipeline
+- [ ] Middleware
+- [ ] Middleware order
+- [ ] Program.cs
+- [ ] Dependency Injection
+- [ ] Service Lifetime
+  - [ ] Transient
+  - [ ] Scoped
+  - [ ] Singleton
+- [ ] Configuration
+- [ ] appsettings.json
+- [ ] Environment variables
+- [ ] Logging
+- [ ] Routing
+- [ ] Endpoint routing
+- [ ] Controllers
+- [ ] ControllerBase
+- [ ] Action methods
+- [ ] Model binding
+- [ ] Model validation
+- [ ] Filters
+- [ ] Action filters
+- [ ] Authorization filters
+- [ ] Exception filters
+- [ ] Attributes
+- [ ] Dependency injection in controllers
+
+
+🔵 10. ASP.NET Core Web API — 🔥 VERY IMPORTANT
+This will be one of our biggest sections.
+- [ ] What is Web API?
+- [ ] REST
+- [ ] REST principles
+- [ ] HTTP
+- [ ] HTTP methods
+- [ ] GET
+- [ ] POST
+- [ ] PUT
+- [ ] PATCH
+- [ ] DELETE
+- [ ] HTTP status codes
+- [ ] Request / Response
+- [ ] Headers
+- [ ] Query parameters
+- [ ] Route parameters
+- [ ] Request body
+- [ ] DTO
+- [ ] Entity vs DTO
+- [ ] Model binding
+- [ ] Validation
+- [ ] Routing
+- [ ] Attribute routing
+- [ ] Content negotiation
+- [ ] JSON serialization
+- [ ] Swagger/OpenAPI
+- [ ] API versioning
+- [ ] Pagination
+- [ ] Sorting
+- [ ] Filtering
+- [ ] Global exception handling
+- [ ] API response structure
+
+
+🔵 11. Authentication & Authorization
+Very important for real-world API interviews.
+- [ ] Authentication vs Authorization
+- [ ] JWT
+- [ ] Access Token
+- [ ] Refresh Token
+- [ ] Claims
+- [ ] Roles
+- [ ] Policies
+- [ ] [Authorize]
+- [ ] [AllowAnonymous]
+- [ ] JWT flow
+- [ ] Token expiration
+- [ ] Authentication middleware
+- [ ] Role-based authorization
+- [ ] Policy-based authorization
+- [ ] OAuth basics
+- [ ] OpenID Connect basics
+
+🔵 12. Database Access
+Since you have real ADO.NET + SQL Server experience, this matters.
+ADO.NET
+- [ ] SqlConnection
+- [ ] SqlCommand
+- [ ] SqlDataReader
+- [ ] SqlDataAdapter
+- [ ] DataSet
+- [ ] DataTable
+- [ ] ExecuteReader
+- [ ] ExecuteScalar
+- [ ] ExecuteNonQuery
+- [ ] Parameters
+- [ ] SQL Injection
+- [ ] Transactions
+- [ ] Connection pooling
+
+
+🔵 13. SQL Server
+We'll prepare SQL separately but it belongs in your overall interview preparation.
+- [ ] SELECT
+- [ ] WHERE
+- [ ] ORDER BY
+- [ ] GROUP BY
+- [ ] HAVING
+- [ ] JOINs
+- [ ] INNER JOIN
+- [ ] LEFT JOIN
+- [ ] RIGHT JOIN
+- [ ] FULL JOIN
+- [ ] SELF JOIN
+- [ ] Subqueries
+- [ ] CTE
+- [ ] Views
+- [ ] Stored Procedures
+- [ ] Functions
+- [ ] Triggers
+- [ ] Indexes
+- [ ] Clustered Index
+- [ ] Non-clustered Index
+- [ ] Primary Key
+- [ ] Foreign Key
+- [ ] Unique Key
+- [ ] Constraints
+- [ ] Normalization
+- [ ] Transactions
+- [ ] ACID
+- [ ] Isolation Levels
+- [ ] Deadlocks
+- [ ] Query optimization
+- [ ] Execution plans
+- [ ] Window Functions
+- [ ] ROW_NUMBER
+- [ ] RANK
+- [ ] DENSE_RANK
+- [ ] LEAD
+- [ ] LAG
+
+
+🔵 14. Architecture & Design
+This is where we move from developer knowledge → experienced developer knowledge.
+- [ ] Layered Architecture
+- [ ] N-Tier Architecture
+- [ ] Repository Pattern
+- [ ] Service Layer
+- [ ] Unit of Work
+- [ ] Dependency Injection
+- [ ] SOLID Principles
+- [ ] DRY
+- [ ] KISS
+- [ ] Separation of Concerns
+- [ ] Clean Architecture basics
+- [ ] Coupling
+- [ ] Cohesion
+- [ ] Composition
+- [ ] Design Patterns basics
+Important patterns:
+- [ ] Singleton
+- [ ] Factory
+- [ ] Repository
+- [ ] Strategy
+- [ ] Observer
+- [ ] Adapte
+
+
+🔵 15. API / Application Security
+- [ ] SQL Injection
+- [ ] XSS basics
+- [ ] CSRF basics
+- [ ] CORS
+- [ ] HTTPS
+- [ ] Password hashing
+- [ ] Secrets management
+- [ ] JWT security
+- [ ] Input validation
+- [ ] Rate limiting basics
+- [ ] Secure API practices
+
+
+
+🔵 16. Testing
+- [ ] Unit Testing
+- [ ] Integration Testing
+- [ ] xUnit
+- [ ] NUnit basics
+- [ ] Moq
+- [ ] Mocking
+- [ ] Test cases
+- [ ] Dependency mocking
+- [ ] API testing
+
+
+🔵 17. Deployment / Production
+This is particularly useful because you already have production experience.
+- [ ] IIS
+- [ ] Hosting ASP.NET Core
+- [ ] Application Pool
+- [ ] web.config
+- [ ] Environment configuration
+- [ ] Publish
+- [ ] Deployment
+- [ ] Production troubleshooting
+- [ ] HTTP 500 errors
+- [ ] HTTP 500.19
+- [ ] Logging
+- [ ] Production debugging
+- [ ] Basic Docker
+- [ ] CI/CD basics
+- [ ] Git
+- [ ] GitHub
+- [ ] TFS
+
+
+
